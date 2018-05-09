@@ -1,5 +1,5 @@
 #!/bin/bash
-figlet "GRU-SVM"
+figlet "gru-svm"
 printf "Operation: [1] Train [2] Test\n>> "
 read choice
 if [ "$choice" -eq "1" ] &>/dev/null; then
